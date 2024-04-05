@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Blogsite API",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "nodemon app.js",
+    "migration": "node models/migrations/default_tables_03-04-2024.js",
+    "user-seed": "node models/seeders/UserSeeder.js",
+    "tag-seed": "node models/seeders/TagSeeder.js",
+    "blog-seed": "node models/seeders/BlogSeeder.js",
+    "blogtag-seed": "node models/seeders/BlogWithTagsSeeder.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "nodemon": "^3.1.0"
+  }
+}

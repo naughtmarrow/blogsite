@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+
+  color-scheme: light dark;
+
+  --text: #d2eaf9;
+  --background: #030104;
+  --hexna-text: #d2eaf980;
+  --primary: #8c25d0;
+  --secondary: #23022c;
+  --accent: #a910e0;
+
+  color: var(--text);
+  background-color: var(--background);
+
+  --filter-svg: invert(91%) sepia(73%) saturate(4636%) hue-rotate(176deg) brightness(107%) contrast(95%); 
+
+  --filter-dark: invert(12%) sepia(12%) saturate(2601%) hue-rotate(160deg) brightness(96%) contrast(103%);
+  --filter-light: invert(91%) sepia(73%) saturate(4636%) hue-rotate(176deg) brightness(107%) contrast(95%);
+  --text-light: #d2eaf9;
+  --text-dark: #061e2d;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: #061e2d;
+    --background: #fdfbfe;
+    --hexna-text: #061e2d80;
+    --primary: #962fda;
+    --secondary: #f4d3fd;
+    --accent: #b81fef;
+
+    --filter-svg: invert(12%) sepia(12%) saturate(2601%) hue-rotate(160deg) brightness(96%) contrast(103%);
+
+    --filter-dark: invert(12%) sepia(12%) saturate(2601%) hue-rotate(160deg) brightness(96%) contrast(103%);
+    --filter-light: invert(91%) sepia(73%) saturate(4636%) hue-rotate(176deg) brightness(107%) contrast(95%);
+    --text-light: #d2eaf9;
+    --text-dark: #061e2d;
+
+    color: var(--text);
+    background-color: var(--background);
+  }
+}

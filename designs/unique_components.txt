@@ -1,0 +1,39 @@
+(this list does not include non-react-component html/jsx elements)
+layout
+	NAVBAR
+	MAIN
+
+MAIN (replaceable, just a placeholder to visualize)
+
+navbar
+	homebutton
+	SEARCHBAR
+	aboutbutton
+
+searchbar
+	icon
+	formbar
+
+thumbnail_list
+thumbnail
+	taglist
+		tag
+
+tagblock
+	tagbuttons
+
+header
+
+readblock (md)
+
+aboutblock
+
+errorblock
+
+changebutton
+
+editpage (has a form)
+
+deleteblocks (has a form)
+
+loginform
